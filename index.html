@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet"> 
+    <title>Button Clicker</title>
+</head>
+
+<body>
+    <div id="flex">
+        <div class="navbar">
+            <p class="dojonary">Dojonary</p>
+            <input type="text" name="search" placeholder="Search">
+            <button class="login" onclick="swapText(this)">Login</button>
+        </div>
+        <div class="ninja">
+            <div class="text">
+                <p class="nin">ninja</p>
+                <p class="noun">noun</p>
+                <p class="plural">Plural: <span>ninjas</span></p>
+            </div>
+            <div class="likes" onclick="alert('Ninja was liked')">
+                <p>13 likes</p>
+            </div>
+            <div class="practicioner">
+                <p>A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="define">
+            <p class="defined">Dojonary is defined by <span>YOU</span></p>
+            <div class="add" onclick="remove(this)">
+                <p>Add Definition</p>
+            </div>
+        </div>
+        <div class="ninja">
+            <div class="text">
+                <p class="nin">ninja</p>
+                <p class="noun">noun</p>
+                <p class="plural">Plural: <span>ninjas</span></p>
+            </div>
+            <div class="likes">
+                <p>37 likes</p>
+            </div>
+            <div class="practicioner">
+                <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
